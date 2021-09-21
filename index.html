@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Expression Recogniser Web App</title>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+</head>
+<body>
+
+    <center>
+
+        <h1 class="btn btn-info">Image Recogniser</h1>
+        <br>
+        
+        <h3 style="color: aqua;">This Object Are Trained With Teachable Machine</h3>
+        
+        <b class="list">
+        
+            MOTHER
+            <hr>
+            BROTHER
+            <hr>
+            ME
+            <hr>
+            GRAND MOTHER
+            <hr>
+            
+        </b>
+        
+        <h3>WebCam View - </h3>
+        
+        <div id="camera"></div>
+        
+        <br>
+        <br>
+        
+        <div id="result"></div>
+        
+        <br>
+        <br>
+        
+        <button id="button_ident"onclick="check()" >IDENTIFY IMAGE</button>
+        <button id="button_take_img" onclick="take_snapshot()" >TAKE A SNAP</button>
+        
+        <h2>Object : <h2 id="object_result"></h2></h2>
+        <h2>Accuracy : <h2 id="accuracy_result"></h2></h2>
+
+    </center>
+
+
+
+</body>
+
+</html>

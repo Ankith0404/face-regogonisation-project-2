@@ -1,0 +1,21 @@
+body{
+
+    background-color: coral;
+}
+
+#button_ident{
+
+    background-color: greenyellow;
+    border-radius: 3px;
+}
+
+#button_take_img{
+
+    background-color: greenyellow;
+    border-radius: 3px;
+}
+
+.list{
+
+    background-color: hotpink;
+}
